@@ -697,7 +697,7 @@ contract Coin is Context, IERC20, Ownable {
 
     uint256 private _marketingFee;
     uint256 private _previousMarketingFee = _marketingFee;
-    address payable public marketingWallet = payable(0x959BFD7B9c06cdF05eC831b12854EB2471E2C333);
+    address payable public marketingWallet = payable(0xE5871f2bfCe64138778E5B98bF202eC74603C293);
 
     uint256 public sellLiquidityFee = 2;
     uint256 public sellMarketingFee = 3;
